@@ -1,3 +1,3 @@
 # html-exercises
-Exercícios HTML5 da Kenzie Academy Brasil
+Exercícios HTML5 da KAB
 Sprint 2
