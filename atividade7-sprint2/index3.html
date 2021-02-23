@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Katas 3</title>
+</head>
+<body>
+<form name="meuForm" method="post" id="formulario">
+	<div class="box">
+		<h1>Formulario de Contato :</h1>
+
+		<label>
+			<span>Nome Completo</span>
+ 			<input type="text" class="input_text" name="nome" id="name"/>
+		</label><br>
+
+		<label for="idade">Idade </label>
+        <select name="idade" id="age">
+            <option value="opcao1">18 ou menos></option>
+            <option value="opcao2">19-35</option>
+            <option value="opcao3">36-48</option>
+            <option value="opcao4">49 ou mais</option>
+          </select><br>
+		 
+		<label>
+ 			<span>Profissão</span>
+			<input type="text" class="input_text" name="assunto" id="subject"/>
+		</label><br>
+
+        <label for="interesse"> Interesses: </label><br>
+            <input type="checkbox" id="interesse1" name="interesse1" value="interesse">
+        <label for="interesse2"> I have a car</label><br>
+            <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+        <label for="vehicle3"> I have a boat</label><br><br>
+            <input type="submit" value="Submit">
+
+			
+
+		<label>
+			 <span>Como descobriu nosso site: </span><br>
+			<textarea class="message" name="feedback" id="feedback"></textarea><br>
+			<input type="button" class="button" value="Enviar" />
+		</label>
+	</div>
+</form>
+</body>
+</html>
