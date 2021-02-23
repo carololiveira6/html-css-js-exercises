@@ -1,0 +1,131 @@
+.clear {
+	clear: both;
+}
+
+#headshot {
+	width: 12.5%;
+	float: left;
+	margin-right: 30px;
+}
+
+#name {
+	float: left;
+}
+
+#contactDetails {
+	float: right;
+	color: #444444;
+}
+
+#top {
+	background-color: #f3f3f3;
+}
+
+li {
+	list-style-type: none;
+}
+
+a:link {
+	color: #444444;
+}
+
+a:visited {
+	color: #444444;
+  }
+
+.sectionTitle {
+	float: left;
+	width: 25%;
+}
+
+.sectionContent {
+	float: right;
+	width: 72.5%;
+}
+
+body, html {
+	font-family: Lato, Arial, Helvetica, sans-serif;
+	background-color: #f3f3f3;
+	border: 0%;
+}
+
+#cv {
+	margin: 10%;
+	padding: 5%;
+}
+
+#mainArea {
+	margin: 0%;
+	padding: 1%;
+}
+
+h1, h2 {
+	font-family: Rokkitt, Arial, Helvetica, sans-serif;
+}
+
+h1.title {
+	color: #cf8a05;
+	font-style: oblique;
+	font-weight: lighter;
+	font-size: x-large;
+}
+
+#name {
+	font-size: 1.5em;
+	line-height: 0mm;
+	padding: 1em;
+	
+}
+
+.jobTitle {
+	font-size: 1.3em;
+	font-weight: lighter;
+	color: #181818;
+	line-height: 0mm;
+}
+
+img {
+	border-radius: 50%;
+	width: 100px;
+}
+
+hr.initial {
+	border-top: 2px solid #cf8a05;
+}
+
+hr {
+	border: 0.7px solid #dedede;
+}
+
+.subDetails {
+	color: #444444;
+	font-style: italic;
+	font-weight: lighter;
+	font-size: smaller;
+	line-height: 0mm;
+}
+
+.subTitle, .subDetails {
+	line-height: 0mm;
+}
+
+article {
+	padding-bottom: 2mm;
+}
+
+p, .keySkills {
+	color: #444444;
+	font-weight: normal;
+	font-size: large;
+	padding-left: 0;
+}
+
+ul.keySkills {
+    column-count: 3;
+}
+
+.title, .subTitle {
+	color: #181818;
+	font-weight: lighter;
+	font-style: normal;
+}
