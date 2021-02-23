@@ -1,0 +1,35 @@
+body {
+    background-color: white;
+}
+
+h1, h3 {
+    text-align: center;
+}
+
+h3 {
+    font-weight: normal;
+}
+
+li {
+    list-style: none;
+}
+
+li.box {
+    display: inline-block;
+    width: 150px;
+    text-align: center;
+    margin: 0% 5%;
+    padding: 2% 5% 5% 2%;
+    /* position: relative; */
+}
+
+img {
+    position: relative;
+}
+span {
+    position: absolute;
+    text-align: center;
+    margin: 0%;
+    padding: 0%;
+    width: 10%;
+}
