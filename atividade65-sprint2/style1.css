@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+}
+.cabecalho, .rodape {
+    height: 60px;
+    background-color: gray;
+}
+section {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+
+}
+div {
+    padding: 10px;
+    margin: 10px;
+    height: 150px;
+    width: 250px;
+    background-color: gray;
+    
+}
+
