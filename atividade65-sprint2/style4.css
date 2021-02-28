@@ -1,0 +1,23 @@
+.container {
+    width: 225px;;
+}
+
+.box1, .box6 {
+    background-color: #65e1cf;
+}
+
+.box2, .box8 {
+    background-color: #ed5781;
+}
+
+.box3, .box7 {
+    background-color: #79e97d;
+}
+
+.box4 {
+    background-color: #dceec8;
+}
+
+.box5, .box9 {
+    background-color: #f58f2d;
+}
