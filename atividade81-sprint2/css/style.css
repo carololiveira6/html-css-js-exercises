@@ -1,4 +1,52 @@
-.boxPrincipal {
+body {
     background-image: linear-gradient(#a8c0ff, #3f2b96);
-    border: 1px solid white;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Noto sans", sans-serif;
 }
+
+.boxPrincipal {
+    display: flex;
+    border: 3px solid white;
+    width: 50vw;
+    height: 50vh;
+}
+
+.box {
+    border: 2px solid black;
+    width: 10vw;
+    height: 10vh;
+    flex-direction: column;
+}
+
+.box1, .box2, .box3 {
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.box4, .box5, .box6 {
+    flex-direction: row;
+}
+
+button {
+    background-color: #e75170;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 50px 2px;
+    cursor: pointer;
+    height: 40px;
+    width: 125px;
+}
+
+button:hover {
+    background-color: #a8c0ff;
+    color: white;
+  }
