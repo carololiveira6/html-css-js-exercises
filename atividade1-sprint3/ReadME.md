@@ -6,6 +6,19 @@ Nessa lista de exercícios nós vamos trabalhar e ganhar mais intimidade com a p
 
 Para relembrar os conceitos ou se quiser saber um pouco mais sobre, da uma olhada nesse [link](https://developer.mozilla.org/pt-BR/docs/Web/CSS/:hover) aqui.
 
+<strong>Antes da prática</strong>
+
+As seguintes práticas possuem um nível mais avançado, e pode ser um pouco complicado de pegar o jeito. Então, antes de iniciar a resolução desses exercícios, <strong>recomendamos fortemente</strong> dar uma conferida nesses links aqui:
+
+<strong>Exemplo - Codepen</strong>
+
+[Hover exemplo - deslizando da direita para a esquerda](https://codepen.io/KenzieAcademyBR/pen/ExNLKKQ)
+
+<strong>Algumas referências</strong>
+
+1. Assista(<strong>em inglês</strong>): [Advanced Button Hover Animations - CSS Only](https://www.youtube.com/watch?v=cH0TC9gWiAg)
+2. Leia: [Animando pseudoelementos](https://cssanimation.rocks/pt/pseudo-elements/)
+
 Se você já está pronto para botar a mão na massa, então, vamos lá!
 
 <strong>Trabalhando com hover - Botões</strong>
