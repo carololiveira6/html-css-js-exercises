@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+ .gradiente {
+    background-image: linear-gradient(to right, #f3dfed, #f1f5f2);
+ }
+
+.cabecalho, .rodape {
+    height: 60px;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+}
+
+nav{
+    background-color: #333333;
+    height: 50px;
+    display: flex;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0;
+    width: 100%;
+    align-items: center;
+    font-size: 20px;
+    color: white;
+}
+
+li {
+    list-style-type: none;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+aside {
+    background-color: #c4c4c4;
+    flex-direction: column;
+}
+
+aside.left-aside {
+    position: absolute;
+    height: 100%;
+    width: 100px;
+}
+
+aside.right-aside {
+    position: absolute;
+    left: 91.7%;
+    height: 100%;
+    width: 100px;
+}
+
+section {
+    position: relative;
+    justify-content: unset;
+    display: flex;
+    flex-direction: column;
+    width: 83.7%;
+    align-items: flex-start;
+    left: 8%;
+}
+
+h4 {
+    justify-content: flex-start;
+}
+
+p {
+    justify-content: flex-start;
+}
+
+img{
+    width: 215px;
+    align-self: center;
+    height: 120px;
+}
+
+header {
+    color: black;
+    align-items: center;
+    font-size: 30px;
+}
+
+footer {
+    align-items: flex-end;
+    color: white;
+}
